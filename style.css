@@ -113,17 +113,21 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .about_section h2{
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 80px;
+   
 }
 
 .about_section p{
-    margin: 20px auto;
+    margin: 80px auto;
     font-weight: 100;
-    line-height: 25px;
+    line-height: 45px;
     width: 75%;
     bottom: 80px;
+    font-size: 20px;
+    
+
     
 }
 
@@ -141,6 +145,8 @@ font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10%px;
   }
   
   /* Create four equal columns that sits next to each other */
@@ -148,6 +154,7 @@ font-family: 'Times New Roman', Times, serif;
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
+   
   }
   
   .column img {
@@ -176,9 +183,68 @@ font-family: 'Times New Roman', Times, serif;
   .row h1{
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     color: #fbfcfc;
     align-items: center;
     text-align: center;
   }
+
+ .team_header{
+  color: white;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 80px;
+  align-items: center;
+  text-align: center;
+ }
+
+ .team_header p{
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+ }
+
+
+ .column1 {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  
+ 
+}
+
+.column1 img {
+  margin: auto;
+  width: 150%;
+  border: 3px solid rgb(235, 53, 84);
+  padding: 10px;
+  align-content: center;
+flex-direction: row-reverse;}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column1 {
+    flex: 100%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column1 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.columns_rows{
+  align-items: center;
+}
+
+.card-img-top{
+  min-height: 18rem;
+}
